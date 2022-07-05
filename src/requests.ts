@@ -1,4 +1,4 @@
-const BASE_URL = `http://www.omdbapi.com/?i=tt3896198&apikey=${process.env.REACT_APP_OMDB_KEY}`;
+const BASE_URL = `https://www.omdbapi.com/?i=tt3896198&apikey=${process.env.REACT_APP_OMDB_KEY}`;
 
 export const Movie = {
     one(title: string) {
